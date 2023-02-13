@@ -1,0 +1,1473 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:rgb(178, 169, 168);
+}
+
+/* GENERAL */
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+/* Rogue Scholar Projects Page */
+
+.rogueGif{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.rogueArea{
+    display: flex;
+    flex-direction: column;
+}
+
+.stills{
+    display:flex;
+    justify-content: center;
+}
+
+.codeSnippetDiv{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    width: 400px;
+}
+.rogueSnippet1{
+    width: 500px;
+    height: 500px;
+}
+.rogueSnippet2{
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 900px;
+
+}
+
+.snippetDescription{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 14pt;
+    text-align: center;
+    color:rgb(178, 169, 168)
+}
+
+
+
+
+/* TOP OF PAGE */
+
+#topOfProjectsPage {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+ }
+
+#projectsNest{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.topbar{
+    font-size:x-large;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30px;
+}
+
+.topbar p{
+    padding:6px;
+    border-radius: 8px;
+}
+
+.topbarname {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topbarlinks{
+    font-size:x-large;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+.navbar li{
+    list-style: none;
+    font-family: 'Italiana', serif;
+    font-size: 150px;
+    padding: 1px;
+    margin-top:0px;
+    border-radius:10%;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.topofpage{
+
+    padding:6px;
+    margin: 4px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#blurb { 
+    font-size: 25pt;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 45px; 
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;  
+}
+
+#blurb p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top:0px;  
+   
+}
+
+
+
+/* SKILLS */
+
+.skills-blurb-mediaquery-phone{
+    display: none
+}
+
+.skills-blurb-mediaquery{
+    display:none;
+}
+
+.skills-blurb{
+    margin-left: 25px;
+}
+.skills {
+    font-family: 'Inter', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    margin-right:0px;
+    margin-left:15px;
+}
+
+.skillsRow1{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.skillsRow2{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.skillsRow3{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.skillsRow4{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+.skills :transition{
+    margin-right: 200px;
+}
+
+.skills p {
+    font-size: 12pt;
+}
+    
+
+
+
+/* CARDS */
+
+.allcards {
+    margin-top: 350px;
+}
+.card-area{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-bottom-style: double;
+    border-bottom-color:rgb(178, 169, 168);
+    border-bottom-width: 7px;
+    background-color:black;
+    padding-bottom: 20px;
+    padding-top:20px;
+ }
+
+.card-area-reverse{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom-style: double;
+    border-bottom-color:rgb(178, 169, 168);
+    border-bottom-width: 7px;
+    padding-bottom:20px;
+    background-color:black;
+}
+
+
+#button-reverse {
+    background-color: rgb(99, 111, 134);
+    color:black;
+    font-size: 18pt;
+    border-radius: 8px;
+    width:125px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+}
+
+
+.button {
+    background-color: rgb(99, 111, 134);
+    color:black;
+    font-size: 18pt;
+    text-align: center;
+    border-radius:7%;
+    width:125px;
+    box-shadow: 2px 2px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding:4px;
+}
+
+
+.button :hover {
+    background-color: rgb(228, 212, 103);
+    opacity: .7;
+}
+
+#button1{
+    text-align:center;
+}
+
+#button2{
+    text-align:center
+}
+
+
+h2{
+    font-family: 'Italiana', serif;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+.card-area img{
+    border-radius: 10px;
+    margin-top:0px;
+}
+
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:8px;
+    width:600px;
+    color: rgb(178, 169, 168);
+    font-size: 20px;
+
+}
+
+.card-text-reverse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:8px;
+    width:600px;
+    color:rgb(178, 169, 168);
+    font-size: 20px;
+
+}
+
+.card-text-reverse p{
+    text-align: right;
+}
+
+.card-text p{
+    margin-bottom: 0px;
+}
+
+.pill p {
+    display: inline-block;
+    background-color: rgb(178, 169, 168);
+    color:black;
+    font-size: large;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+
+.pill{
+   display: block;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+/* FOOTER */
+
+footer{
+    background-color: rgb(99, 111, 134);
+    opacity: 1;
+    height:500px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+footer h2{
+    padding-top: 60px;
+    margin-left: 60px;
+    margin-right:60px;
+    text-align: center;
+}
+
+
+footer i {
+    color:black;
+    margin-left:100;
+}
+
+#footerButton{
+    background-color: rgb(178, 169, 168);
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    color:black;
+}
+
+.contactDiv{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contact{
+margin: 0px;
+}
+
+.contact-forms{
+    display:flex;
+}
+
+.contact-forms a{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    display:flex;
+    font-size: 28pt;
+}
+
+.contact-forms :hover{
+    border-radius: 20;
+    background-color: rgb(228, 212, 103);
+    opacity: .5;
+}
+
+
+.copyright{
+        background-color:rgb(178, 169, 168);
+        color: black;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        padding: 20px;
+}
+
+.lineP{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+
+a :hover {
+    border-radius: 20;
+    background-color: rgb(228, 212, 103);
+    opacity: .5;
+}
+
+h1{
+    font-family: 'Italiana', serif;
+    font-size: 150px;
+    color: black;
+    width: 800px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ }
+ 
+ 
+#footerNest{
+    width: 200px;
+    margin-right: 10;
+    margin-top:10px;
+    border-radius: 20px;
+     }
+ 
+ .arrow {
+     margin-top: 45px;
+     padding-left: 5px;
+ }
+
+
+
+.projectimages {
+    margin-top: 50px;
+    padding-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectimages img {
+    padding: 4px;
+}
+
+.projectimages :hover{
+    background-color:rgb(99, 111, 134);
+    opacity: .7;
+}
+
+
+
+.nest-header{
+    display: flex;
+    justify-content: flex-end;
+    background-color:rgb(178, 169, 168);
+    padding-bottom:100px;
+}
+
+
+.projectsheader h1{
+    color:rgb(178, 169, 168);
+    margin-top: 0px;
+    padding-left: 4px;
+    margin-right:0px;
+    margin-bottom:10px;
+    text-align: left;
+}
+
+#projects {
+    background-color: black;
+}
+
+#projects h1 {
+    color:rgb(178, 169, 168);
+}
+
+
+
+/* ABOUT ME */
+.aboutme {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left:auto;
+    margin-right:auto;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.aboutmetext{
+    padding:5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: larger;
+}
+
+.aboutMeTextDiv a{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#aboutmenote{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMeImage{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+   
+}
+
+.aboutMeImage img{
+   width: 500px;
+   margin: 8px;
+}
+
+.aboutMeLink{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.aboutMeLink p{
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+#largeAboutMe{
+    font-size: 25pt;
+}
+
+
+
+
+
+/* Project Description Main Page */
+.projectNameDiv{
+    background-color:black;
+    padding-bottom: 175px;
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.projectName{
+    font-family: 'Italiana', serif;
+    font-size: 125px;
+    color:rgb(178, 169, 168);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    margin:auto;
+    width:auto;
+}
+
+.project-skills {
+    font-family: 'Inter', sans-serif;
+    font-size: 40pt;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    color:rgb(178, 169, 168);
+}
+
+.project-skillsRow{
+    display:flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project-skillsRow i{
+    padding-left: 20px;
+    padding-bottom:15px;
+}
+
+.projectButton {
+    height: 45px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 20pt;
+    padding-left : 18px;
+    padding-right: 0px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.projectGit :hover{
+    background-color: rgb(228, 212, 103);
+    opacity: .5;}
+
+.projectPageButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+
+.fa-angle-right{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.projectGit{
+    font-size: 30px;
+}
+.projectPageGit{
+    color:black;
+    background-color:rgb(99, 111, 134);
+    border-radius:8px;
+}
+
+.readMoreDiv{
+    display: none
+}
+
+
+#myBtn{
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: black;
+    color:rgb(178, 169, 168);
+    font-family: 'Inter', sans-serif;
+    font-size:20px;
+}
+
+
+
+#more {display: none;}
+
+
+#buttonArrow{
+    padding: 8px;
+    margin:5px;
+    text-align: center;
+    }
+
+
+.projectDescription{
+    color:rgb(178, 169, 168);
+    font-size:16pt;
+    text-align:center;
+    margin: 40px;
+    box-shadow: none;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+
+#gifDiv{
+    
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.projectPageImages{
+    padding: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap-reverse;
+}
+
+.projectRunDown{
+    display:flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.roleDiv{
+    background-color: rgb(99, 111, 134, .4);
+    color:black;
+    opacity: .5;
+    width: 400px;
+    height: 325px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.DesignDiv{
+    background-color: rgb(99, 111, 134, .4);
+    color:black;
+    opacity: .5;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.designInspoDiv{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items:center
+}
+
+.challengeDiv{
+    background-color: rgb(99, 111, 134, .4);
+    color:black;
+    opacity: .5;
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 4px;
+    padding-bottom: 8px;
+}
+
+.challengep {
+    font-size: 20pt;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    width: 300px;
+}
+
+.challengeDescription{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 14pt;
+}
+.rolep p{
+    font-size: 20pt;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    width: 100px;
+}
+
+#roledescription1 {
+    font-size: 14pt;
+    width: 375px;
+    border: none;
+    margin-top: 0px;
+    padding-top: 4px;
+}
+
+#roledescription2{
+    font-size: 14pt;
+    width: 375px;
+    border: none;
+    margin-top: 0px;
+    padding-top: 4px;
+}
+
+.snippetDiv{
+    background-color:black;
+    padding-bottom: 20px;
+    padding-top:1px;
+}
+
+.codeSnippet{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10pt;
+    color:rgb(178, 169, 168);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+          typing 10s steps(40, end),
+          blink-caret .75s step-end infinite;
+    margin: 50px;
+}
+
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+       
+      /* The typewriter cursor effect */
+       @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+      }
+
+
+
+
+/* RESPONSIVE */
+
+  /* Media Query for Mobile Devices */
+  @media (min-width: 0px) and (max-width: 480px) {
+ 
+    .skills-blurb-mediaquery-phone{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-blurb-mediaquery{
+        display: none
+    }
+
+    .topofpage{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    
+    .topbar{
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .navbar ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar li{
+        font-size: 75px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+
+
+    .mediaqueryskillsRow{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mediaqueryskillsRow i{
+        font-size: 34px;
+        padding: 10px;
+        text-align: center;
+
+    }
+    .mediaqueryskillsRow p{
+        font-size: 14px;
+    }
+
+    #blurb{
+        font-size: 24px;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    .skills-blurb{
+        display: none;
+    }
+    .skills i{
+        font-size: 16px;
+    }
+    .skills p{
+        font-size: 10px;
+    }
+
+    .topbarname{
+        font-size: 20px;
+    }
+    .topNest{
+        width: 100px;
+    }
+    .topbarlinks{
+        font-size: 20px;
+    }
+    .card-text-reverse p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-text p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footerDiv{
+        justify-content: center;
+      
+        }
+  
+    .allcards{ 
+        margin-top: 75px;
+    }
+
+    .footerDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nest{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+
+    .nest img{
+        width: 130px;
+    }
+
+    .nest i{
+        display: none;
+    }
+
+    #projectsNest img{
+        width: 130px;
+    }
+
+    .aboutMeImage img{
+        width: 350px;
+    }
+
+    /* PROJECT PAGE */
+    .projectName {
+        font-size:  85px;
+        display: block;
+        text-align: center;
+        width: auto;
+        padding-top: 0px;
+        padding-bottom: 8px;
+        }
+    
+    #wordsmith{
+        font-size:70px;
+    }
+
+ 
+    .projectRunDown img{
+        width: 380px;
+    }
+
+    .phone1{
+        display: none;
+        }
+
+    .challengep {
+         width: 200px;
+        }
+
+    .challengeDiv {
+        margin-left:auto;
+        margin-right: auto;
+        display: block;
+        width: 400px;
+           }
+     #projectButton{
+        width: 150px;
+        margin-left: auto;
+        margin-right:auto;
+        }
+
+    .roleDiv{
+         width: 400px;
+         padding-bottom: 10px;
+        }
+
+    #roledescription1 {
+    width: 350px;
+    }
+
+    #roledescription2 {
+    width: 350px;
+    }
+
+    .project-skills {
+        font-size: 30pt;
+    }
+
+    .project-skillsRow {
+        padding-left: 0px;
+    }
+
+    .withoutReadMore{
+        display:none
+    }
+
+    .readMoreDiv{
+        display: block;
+    }
+    #footerNest{
+        width: 150px;
+        margin-bottom: 8px;
+    }
+    
+    .contact h2{
+        font-size:60px;
+    }
+
+    .projectPageImages img{
+        width: 400px;
+    }
+
+    .projectNameDiv{
+        padding-bottom: 100px;
+    }
+
+    .projectPageImages{
+        display: flex;
+        justify-content: center;
+    }
+
+    #phone2{
+        width: 250px;
+        padding: 4px;
+      
+
+    }
+    #phone3{
+        width: 250px;
+        padding:4px;
+     
+    }
+
+  }
+    
+
+
+
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    
+/* INDEX */
+    #blurb{
+        margin-top: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .topofpage{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+
+    }
+    
+    .topbar{
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .navbar ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar li{
+        font-size: 85px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+
+    .skills-blurb-mediaquery-phone{
+        display: none
+    }
+
+    .skills-blurb-mediaquery{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .mediaqueryskillsRow{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mediaqueryskillsRow i{
+        font-size: 38px;
+        padding: 10px;
+        text-align: center;
+
+    }
+    .mediaqueryskillsRow p{
+        font-size: 14px;
+    }
+
+    #blurb{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .skills-blurb{
+        display: none;
+    }
+    .skills i{
+        font-size: 20px;
+    }
+    .skills p{
+        font-size: 14px;
+    }
+
+    .topbarname{
+        font-size: 20px;
+    }
+    .topNest{
+        width: 100px;
+    }
+    .topbarlinks{
+        font-size: 20px;
+    }
+    .card-text-reverse p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-text p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footerDiv{
+        justify-content: center;
+      
+        }
+    .nest{
+        margin-top: 0px;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+
+    .allcards{ 
+        margin-top: 75px;
+    }
+
+    .footerDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerNest{
+        width: 110px;
+    }
+
+    .nest{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .nest i{
+        display: none;
+    }
+
+
+    /* PROJECT PAGES */
+    .phone1{
+    display: none;
+    }
+
+    .projectName {
+    font-size: 120px;
+    display: block;
+    text-align: center;
+    width: auto;
+    padding-top: 0px;
+    padding-bottom: 0 px;
+    }
+
+    .project-skills{
+        font-size: 40px;
+    }
+
+    #projectButton{
+        width: 175px;
+    }
+
+    #gifDiv{
+        width: 450px;
+    }
+
+    .projectDescription{
+        font-size: 20px;
+        margin: 10px;
+        margin-left: 60;
+        margin-right: 60;
+    }
+
+    .aboutMeImage img{
+        width: 400px;
+    }
+
+    .withoutReadMore{
+        display:none
+    }
+
+    .readMoreDiv{
+        display: block;
+    }
+
+    .phone{
+        width: 250px;
+    }
+
+}
+
+
+
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+ 
+    #blurb{
+        margin-top: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .topofpage{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+
+    }
+    
+    .topbar{
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    .navbar ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar li{
+        font-size: 120px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+
+    .skills-blurb-mediaquery-phone{
+        display: none
+    }
+
+    .skills-blurb-mediaquery{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 0px;
+
+    }
+
+    .mediaqueryskillsRow{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mediaqueryskillsRow i{
+        font-size: 38px;
+        padding: 10px;
+        text-align: center;
+
+    }
+    .mediaqueryskillsRow p{
+        font-size: 14px;
+    }
+
+    #blurb{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .skills-blurb{
+        display: none;
+    }
+    .skills i{
+        font-size: 28px;
+    }
+    .skills p{
+        font-size: 14px;
+    }
+
+    .topbarname{
+        font-size: 20px;
+    }
+    .topNest{
+        width: 100px;
+    }
+    .topbarlinks{
+        font-size: 20px;
+    }
+    .card-text-reverse p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-text p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footerDiv{
+        justify-content: center;
+      
+        }
+
+    .nest{
+        margin-top: 0px;
+    }
+
+    .allcards{ 
+        margin-top: 75px;
+    }
+
+    .footerDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ 
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 1025px) and (max-width: 1279px){
+    #blurb{
+        font-size: 25px;
+    }
+
+
+    .readMoreDiv{
+        display: none;
+    }
+ 
+}
+ 
+
+
+
+/* Media Query for large Laptops and Desktops */
+
+  @media (min-width: 1280px){
+    .navbar li {
+      font-size: 180px;
+    }
+
+    #blurb{
+        font-size: 40px;
+    }
+
+    .aboutmetext{
+        width: 800px;
+    }
+    .readMoreDiv{
+        display: none;
+    }
+  }
+
+
+  .typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: white;
+    margin-left: 8px;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+  
+.input-cursor { 
+  animation: blink .6s linear infinite alternate;
+}

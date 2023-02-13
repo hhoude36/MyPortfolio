@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeatherHoudePortfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+     
+</head>
+<body id="landing">
+
+<!-- Top bar -->
+<section  id="topOfProjectsPage">
+    <a href="index.html"><div id="projectsNest">
+    <img src="./Assets/Nest.png" width="150"></img>   
+    </div> </a> 
+</section></a>
+
+<!-- PROJECT NAME AND SKILLS -->
+<div class="projectNameDiv" data-aos="fade-up">
+    <h1 class="projectName">Rogue Scholar</h1>
+        <section class="project-skills">
+            <div class="project-skillsRow" data-aos="fade-left">
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-css3-plain"></i>
+            </div>
+            </section>
+            <div class="projectPageButtons">
+            <section class="projectGit">
+            <a href="https://github.com/hhoude36/Rogue-Scholar" class="fa fa-github projectPageGit" id="projectPageGit" target="_blank"></a></section>
+            <a href="https://rogue-scholar.netlify.app" target="_blank"><p class="button projectButton">Visit Site<i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+             </div>
+    
+        </section>  
+           
+    
+        <div class="withoutReadMore">
+            <p class="projectDescription">Rogue Scholar is designed for readers who want to know everything about what they are reading. The site allows users to search for a specific book. If it is  part of the Guten Project, which provides the full texts of books in the public domain, the site will return the book's cover, a link to the entire text, and generate any associated reviews that have been published by the New York Times.</p> 
+        </div>
+    
+    
+    
+        <div class="readMoreDiv">
+        <p class="projectDescription">Rogue Scholar is designed for readers who want to know everything about what they are reading. The site allows users to search for a specific book. <span id="dots">...</span><span id="more">If it is  part of the Guten Project, which provides the full texts of books in the public domain, the site will return the book's cover, a link to the entire text, and generate any associated reviews that have been published by the New York Times.</p></span>
+            <div onclick="myFunction()" class ="myBtn" id="myBtn">
+                <div class="readMoreDiv">
+                <p>Read more</p>
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+
+
+<div class= "projectRunDown">
+    <div>
+        <img  id="gifDiv" src="./Assets/RogueScholar.gif" width="650px"></img>
+    </div>
+        
+    <div class="roleDiv" data-aos="fade-left">
+        <div class="rolep">
+            <p>Role</p>
+            <p id="roledescription1">This project was developed independently. Front-end design and development and API routing. </p>
+            <p >Goals</p>
+            <p id="roledescription1">My primary aim while building this project was to practice routing multiple APIs, with one relying on the other to provide results.
+            </p>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="projectPageImages">
+            <img class="phone1" src="./Assets/RogueScholar/RogueMobile1.png" width="250px"></img>
+            <img id= "phone2" src="./Assets/RogueScholar/RogueMobile2.png" width="250px"></img>
+            <img id= "phone3" src="./Assets/RogueScholar/RogueMobile3.png" width="250px"></img>
+    </div>
+
+    <div class="challengeDiv" data-aos="fade-up">
+        <div>
+            <p class="challengep">Challenges</p>
+            <p class="challengeDescription">I learned a lot about passing information from one API to another.  While the user is entering the book's title for the Guten Project API, the New York Times API worked best with the author's name. Since both API's had the author's names in different orders, it was a fun challenge to get the author's names into the right order and format so that the second API would yield search results. </p>
+            <p class="challengep">Future Plans</p>
+            <p class="challengeDescription">I'm particularly excited about this project because I have tons of ideas of how to add to it. I hope toconnect to other API's to generate other resources such as scholarly articles, interviews, and podcasts about the user's book, as well as the ability to save books of interest. </p>
+        </div>
+    </div>
+
+<div class="snippetDiv" >
+    <p class="codeSnippet">  let formattedAuthor=author.split(" ");<br>    if(formattedAuthor.length > 2){<br>        formattedAuthor = <br>formattedAuthor[1].trim().replace(",", "")+ "+" + formattedAuthor[2].trim().replace(",", "")+ "+" + formattedAuthor[0].trim().replace(",", "");<br>console.log(formattedAuthor);<br> }<br>else{<br>    formattedAuthor = formattedAuthor[1].trim().replace(",","")+ "+" + formattedAuthor[0].trim().replace(",", "");<br>    console.log(formattedAuthor);<br>  }<br>    GetNYTData(formattedAuthor);<br>}<br> else{<br>    console.log("Unfortunately this book is not available via the Guten Project");<br>    let sorryMessage = document.createElement('p');<br>    gutenSorry.append(sorryMessage);<br>    sorryMessage.className="sorryMessage"<br>    sorryMessage.innerText= "Unfortunately the book or author you entered is not available."<br>}<br>}</p>
+</div>
+
+
+<!-- Comments section can go here in the future -->
+
+   <!-- Comments section can go here in the future -->
+
+   <footer id="footer">
+    <div class="footerDiv">
+
+    <div class="contactDiv">
+            <section class="contact">
+            <h2>Let's get in touch.</h2>
+            </section>
+
+            <section class="contact-forms">
+            <a  href="https://www.linkedin.com/in/heather-houde-a5335214a/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/hhoude36" class="fa fa-github" target="_blank"></a>
+            <a href="mailto:heather.m.houde@gmail.com"target="_blank" class="fa fa-envelope"></a>
+            </section>
+    </div>
+    
+        
+        <a href="index.html"> 
+            <img class="footerNest" id="footerNest" src="./Assets/Nest.png"></img></a>
+    </div>
+     </footer>
+
+
+     <div class="copyrightDiv">
+     <p class= "copyright">Ⓒ 2022 Heather Houde, Web Developer </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

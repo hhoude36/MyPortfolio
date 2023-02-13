@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeatherHoudePortfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+     
+</head>
+<body id="landing">
+
+<!-- Top bar -->
+<section  id="topOfProjectsPage">
+    <a href="index.html"><div id="projectsNest">
+    <img src="./Assets/Nest.png" width="150"></img>   
+    </div> </a> 
+</section></a>
+
+<!-- PROJECT NAME AND SKILLS -->
+<div class="projectNameDiv" data-aos="fade-up">
+<h1 class="projectName">Story Sourcer</h1>
+    <section class="project-skills">
+        <div class="project-skillsRow" data-aos="fade-left">
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-sequelize-plain"></i>
+            <i class="devicon-postgresql-plain"></i>
+            <i class="devicon-bootstrap-plain"></i>
+        </div>
+        </section>
+        <div class="projectPageButtons">
+        <section class="projectGit">
+        <a href="https://github.com/hhoude36/Story_Sourcer" class="fa fa-github projectPageGit" id="projectPageGit" target="_blank"></a></section>
+         </div>
+
+    </section>  
+       
+
+    <div class="withoutReadMore">
+        <p class="projectDescription">Story Sourcer is a crowd sourced bank of stories for language teachers. Prior to my career as a developer, I worked as a language teacher using a  method called Comprehensible Input (CI). CI is based around stories and storytelling. Teachers use all sorts of stories from folktales to ones they made up.  The stories are adapted into language that the student's can understand, requiring the teacher to translate them into simpler vocabulary.<br><br>As a teacher, this was something I spent a ton of time doing. With Story Sourcer, teachers can share their adapted stories with one another. The stories can then be filtered by various criteria such as the target age of students, the story's source, or the length of the story to ensure they can find stories that meet their student's needs.</p> 
+    </div>
+
+
+
+    <div class="readMoreDiv">
+    <p class="projectDescription">Story Sourcer is a crowdsourced bank of stories for language teachers. Prior to my career as a developer, I worked as a language teacher using a popular method called <span id="dots">...</span><span id="more">Comprehensible Input (CI). CI is based around stories and storytelling. Teachers use all sorts of stories from folktales to ones they made up.  The stories are adapted into language that the student's can understand, requiring the teacher to translate them into simpler vocabulary. As a teacher, this was something I spent a ton of time doing. With Story Sourcer, teachers can share their adapted stories with one another. The stories can then be filtered by various criteria such as the target age of students, the story's source, or the length of the story to ensure they can find stories that meet their student's needs.</p></span>
+        <div onclick="myFunction()" class ="myBtn" id="myBtn">
+            <div class="readMoreDiv">
+            <p>Read more</p>
+            <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class= "projectRunDown">
+    <div>
+        <img  id="gifDiv" src="./Assets/StorySourcer/ezgif.com-gif-maker.gif" width="650px"></img>
+    </div>
+        
+    <div class="roleDiv" data-aos="fade-left">
+        <div class="rolep">
+            <p class="rolep">Role</p>
+            <p id="roledescription1">Independently developed including, front-end design, back-end development, and authentication. </p>
+            <p class="rolep">Goals</p>
+            <p id="roledescription2">My primary aim was to develop a back-end database using PostgreSQL with multiple tables. In addition, I learned how to encrypt login information.</p>
+
+        </div>
+    </div>
+    </div>
+
+
+    <div class="projectPageImages">
+            <img class="phone1" src="./Assets/StorySourcer/mobile (2).png" width="250px"></img>
+            <img id="phone2" src="./Assets/StorySourcer/mobile (3).png" width="250px"></img>
+            <img id="phone3" class= "phone" src="./Assets/StorySourcer/mobile (4).png" width="250px"></img>
+    </div>
+
+    <div class="challengeDiv" data-aos="fade-up">
+        <div>
+            <p class="challengep">Challenges</p>
+            <p class="challengeDescription">I learned a lot while developing this project. One challenge I faced was understanding how to code for a filtering function, allowing the user to search based on multiple criteria. I've included this snippet of code below. </p>
+            <p class="challengep">Future Plans</p>
+            <p class="challengeDescription">I am actively working on this project and would love to allow users to save their favorite stories and access them at a later time.</p>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+
+
+
+    <div class="snippetDiv" >
+        <p class="codeSnippet">  app.post('/search', async function(req, res){<br>
+            const {theTitle, theAge, theMood, theLength, theLevel, theSource} = req.body;<br>
+            let results = await Stories.findAll({<br>
+            where: {<br>
+                    [Sequelize.Op.and]: [ <br>
+                        {title: {[Sequelize.Op.iLike]:'%' + theTitle + '%'}}, <br>
+                    //     // {alt_title: {[Sequelize.Op.iLike]:'%' + theTitle + '%'}},<br>
+                        {age: {[Sequelize.Op.iLike]:'%' + theAge + '%'}},<br>
+                        {source: {[Sequelize.Op.iLike]:'%' + theSource + '%'}},<br>
+                        {mood: {[Sequelize.Op.iLike]:'%' + theMood + '%'}},<br>
+                        {length: {[Sequelize.Op.iLike]:'%' + theLength + '%'}},<br>
+                        {level: {[Sequelize.Op.iLike]:'%' + theLevel + '%'}}<br>
+                    ]<br>
+                    }<br>
+                })<br>
+            // console.log(results);<br>
+            res.render("search", {results})<br>
+            })<br>
+        </p>
+    </div>
+
+
+
+
+<!-- Comments section can go here in the future -->
+
+   <!-- Comments section can go here in the future -->
+
+   <footer id="footer">
+    <div class="footerDiv">
+
+    <div class="contactDiv">
+            <section class="contact">
+            <h2>Let's get in touch.</h2>
+            </section>
+
+            <section class="contact-forms">
+            <a  href="https://www.linkedin.com/in/heather-houde-a5335214a/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/hhoude36" class="fa fa-github" target="_blank"></a>
+            <a href="mailto:heather.m.houde@gmail.com"target="_blank" class="fa fa-envelope"></a>
+            </section>
+    </div>
+    
+        
+        <a href="index.html"> 
+            <img class="footerNest" id="footerNest" src="./Assets/Nest.png"></img></a>
+    </div>
+     </footer>
+
+
+     <div class="copyrightDiv">
+     <p class= "copyright">Ⓒ 2022 Heather Houde, Web Developer </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

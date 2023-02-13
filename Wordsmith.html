@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeatherHoudePortfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+     
+</head>
+<body id="landing">
+
+<!-- Top bar -->
+<section  id="topOfProjectsPage">
+    <a href="index.html"><div id="projectsNest">
+    <img src="./Assets/Nest.png" width="150"></img>   
+    </div> </a> 
+</section></a>
+
+
+<!-- PROJECT NAME AND SKILLS -->
+<div class="projectNameDiv" data-aos="fade-up">
+    <h1 class="projectName" id="wordsmith">Wordsmith</h1>
+        <section class="project-skills">
+            <div class="project-skillsRow" data-aos="fade-left">
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-css3-plain"></i>
+            </div>
+            </section>
+            <div class="projectPageButtons">
+            <section class="projectGit">
+            <a href="https://github.com/hhoude36/Wordsmith" class="fa fa-github projectPageGit" id="projectPageGit" target="_blank"></a></section>
+            <a href="https://taupe-marshmallow-580cfc.netlify.app" target="_blank"><p class="button projectButton">Visit Site<i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+             </div>
+    
+        </section>  
+           
+    
+        <div class="withoutReadMore">
+            <p class="projectDescription">This project was inspired by a book that makes me laugh all the time, I Forced a Bot to Write This Book: A.I. Meets B.S. by Keaton Patti. With Wordsmith, the user can enter an ordinary sentence and “synonimize” it. The site connects to Merriam-Webster’s dictionary API and replaces each word in the sentence for one of its synonyms. The returned sentences are strange, surprising, and lots of fun.  
+                </p> 
+        </div>
+    
+    
+    
+        <div class="readMoreDiv">
+        <p class="projectDescription">This project was inspired by a book that makes me laugh all the time, I Forced a Bot to Write This Book: A.I. Meets B.S. by Keaton Patti. With Wordsmith, the user can enter an ordinary sentence and “synonimize” it.<span id="dots">...</span><span id="more">The site connects to Merriam-Webster’s dictionary API and replaces each word in the sentence for one of its synonyms. The returned sentences are strange, surprising, and lots of fun.  
+</p></span>
+            <div onclick="myFunction()" class ="myBtn" id="myBtn">
+                <div class="readMoreDiv">
+                <p>Read more</p>
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+    
+    <div class= "projectRunDown">
+    <div>
+        <img  id="gifDiv" src="./Assets/Wordsmith/wordsmith.gif" width="650px"></img>
+    </div>
+        
+    <div class="roleDiv" data-aos="fade-left">
+        <div class="rolep">
+            <p class="rolep">Role</p>
+            <p id="roledescription1">Independently built the site's simple front end and routed the API using JavaScript. </p>
+            <p class="rolep">Goals</p>
+            <p id="roledescription2">My primary aim was to challenge myself to route an API and to keep my JavaScript skills sharp.</p>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="projectPageImages">
+            <img class="phone phone1" src="./Assets/Wordsmith/WordMobile1.png" width="250px"></img>
+            <img class ="phone" id="phone2" src="./Assets/Wordsmith/WordMobile2.png" width="250px"></img>
+            <img class="phone" id ="phone3" src="./Assets/Wordsmith/WordMoble3.png" width="250px"></img>
+    </div>
+
+    <div class="challengeDiv" data-aos="fade-up">
+        <div>
+            <p class="challengep">Challenges</p>
+            <p class="challengeDescription">This site was a great way to deepen my JavaScript skills  while learning about routing API's. While the idea is simple, a lot of tweaking had to be done to account for punctuation and to leave common words untouched to ensure it would be legible. Below is a snippet from the code in which I am working through those challenges. </p>
+        </div>
+    </div>
+
+    <div class="snippetDiv" >
+        <p class="codeSnippet">  
+            for(let word of theWords){ <br>
+                theWord = word; <br>
+                //dealing with punctuation <br>
+                while( ["?", ".", "!", ",", '"', "-",].includes(theWord[theWord.length-1])) { <br>
+                    endingPunctuation = theWord[theWord.length-1]+endingPunctuation; <br>
+                    theWord = theWord.substring(0,(theWord.length-1));<br>
+                }<br>
+        
+                while( ["?", ".", "!", ",", '"'].includes(theWord[0])) { <br>
+                    beginningPunctuation = beginningPunctuation + theWord[0]; <br>
+                    theWord = theWord.substring(1,(theWord.length)); <br>
+                 } <br>
+        
+                 //adding beginning punctuation.<br>
+                res+= beginningPunctuation;<br>
+                beginningPunctuation = "";<br>
+                
+                if(theResponse == []){<br>
+                    res +=  theWord;<br>
+                }<br>
+              
+                //common words <br>
+                if(["i","you","he","she","we","they", "is", "are", "was", "were", "the", "a", "an", "can", "me", "her","him", "us"].includes(theWord.toLowerCase())){ <br>
+                    res += theWord;<br>
+                }<br>
+            
+                else if(theResponse[0].meta && theResponse != []){ <br>
+        
+                    let synonymArrays = theResponse[0].meta.syns; <br>
+                    let synonymArray = synonymArrays[0]; <br>
+        
+                    let synonym = synonymArray[Math.floor(Math.random()*synonymArray.length)]; <br>
+                    console.log(`the synonym is ${synonym}`);<br>
+                    res += synonym; <br>
+                    } <br>
+        
+                else{ <br>
+                    res += theWord; <br>
+                } <br>
+        
+        
+                res += endingPunctuation; <br>
+                res += " "<br>
+                endingPunctuation=""; <br>
+                
+                }<br>
+                answerText.innerText = res;<br>
+        }<br>
+        
+        </p>
+    </div>
+
+
+<!-- Comments section can go here in the future -->
+
+   <!-- Comments section can go here in the future -->
+
+   <footer id="footer">
+    <div class="footerDiv">
+
+    <div class="contactDiv">
+            <section class="contact">
+            <h2>Let's get in touch.</h2>
+            </section>
+
+            <section class="contact-forms">
+            <a  href="https://www.linkedin.com/in/heather-houde-a5335214a/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/hhoude36" class="fa fa-github" target="_blank"></a>
+            <a href="mailto:heather.m.houde@gmail.com"target="_blank" class="fa fa-envelope"></a>
+            </section>
+    </div>
+    
+        
+        <a href="index.html"> 
+            <img class="footerNest" id="footerNest" src="./Assets/Nest.png"></img></a>
+    </div>
+     </footer>
+
+
+     <div class="copyrightDiv">
+     <p class= "copyright">Ⓒ 2022 Heather Houde, Web Developer </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
