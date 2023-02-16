@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeatherHoudePortfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+     
+</head>
+<body id="landing">
+
+<!-- Top bar -->
+<section  id="topOfProjectsPage">
+    <a href="index.html"><div id="projectsNest">
+    <img src="./Assets/Nest.png" width="150"></img>   
+    </div> </a> 
+</section></a>
+
+<!-- PROJECT NAME AND SKILLS -->
+<div class="projectNameDiv" data-aos="fade-up">
+    <h1 class="projectName">Stitch 'N Bitch</h1>
+    <div class="skillsAndButtonAlign">
+        <section class="project-skills">
+            <div class="project-skillsRow" data-aos="fade-left">
+                <i class="devicon-react-original"></i>
+                <i class="devicon-sequelize-plain"></i>
+                <i class="devicon-postgresql-plain"></i>
+                <i class="devicon-materialui-plain"></i>        
+
+            </div>
+            </section>
+            <div class="projectPageButtons">
+            <section class="projectGit">
+            <a href="https://github.com/hhoude36/StitchNBitch-Server" class="fa fa-github projectPageGit" id="projectPageGit" target="_blank"></a></section>
+            <a href="https://stitchnbitch.onrender.com" target="_blank"><p class="button projectButton">Visit Site<i class="fa fa-angle-right" aria-hidden="true"></i></p></a>
+             </div>
+        </div>
+        </section>  
+           
+    
+        <div class="withoutReadMore">
+            <p class="projectDescription">Inspired by the post WWII phenomenon known as the Stitch ‘N Bitch, crafters can find and build groups that meet regularly to quilt, knit, crochet, needlepoint, sew, and do other handicrafts. Additionally, they can track their own and others’ progress on current and past projects. Historically, women have used these gatherings as a way to gather and build community. During the 80s and 90s women in the Feminist, Punk, and DIY circles brought these craft circles back to life, using them as a place to reclaim women's work and build political movements. Ever since, the Stitch 'N Bitch has remained alive and well but there has never been a platform dedicated entirely for them. With Stitch 'N Bitch it's never been easier to build community around the activities you love.</p> 
+        </div>
+    
+    
+    
+        <div class="readMoreDiv">
+        <p class="projectDescription">Inspired by the post WWII phenomenon known as the Stitch ‘N Bitch, crafters can find and build groups that meet regularly to quilt, knit, crochet, needlepoint, sew, and do other handicrafts. Additionally, they can track their own and others’ progress on current and past projects.<span id="dots">...</span><span id="more">Historically, women have used these gatherings as a way to gather and build community. During the 80s and 90s women in the Feminist, Punk, and DIY circles brought these craft circles back to life, using them as a place to reclaim women's work and build political movements. Ever since, the Stitch 'N Bitch has remained alive and well but there has never been a platform dedicated entirely for them. With Stitch 'N Bitch it's never been easier to build community around the activities you love.</p></span>
+            <div onclick="myFunction()" class ="myBtn" id="myBtn">
+                <div class="readMoreDiv">
+                <p>Read more</p>
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+
+
+<div class= "projectRunDown">
+    <div>
+        <img  id="gifDiv" src="./Assets/StitchNBitch/StitchGiF.gif" width="650px"></img>
+    </div>
+        
+    <div class="roleDiv" id="roleDivStitch" data-aos="fade-left">
+        <div class="rolep">
+            <p>Role</p>
+            <p id="roledescription1">This project was developed collaboratively with<a href="https://bleecreations.netlify.app/">Betty-Lee Carter.</a> We shared the responsibilities of ideation, front end, back end, and design. I focused on the functionalities related to searching for, participating in, and creating crafting groups. </p>
+            <p >Goals</p>
+            <p id="roledescription1">To build a  user-friendly site while solidifying my understanding of REACT, MUI, and PostgreSQL to build an API and consume it from the front end. 
+            </p>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="projectPageImages">
+            <img class="phone1" src="./Assets/StitchNBitch/Stitch3.png" width="250px"></img>
+            <img id= "phone2" src="./Assets/StitchNBitch/Stitch1.png" width="250px"></img>
+            <img id= "phone3" src="./Assets/StitchNBitch/Stitch2.png" width="250px"></img>
+    </div>
+
+    <div class="designInspoDiv">
+        <div class="DesignDiv" id="DesignDivStitch" data-aos="fade-right">
+            <div class="rolep">
+                <p>Design</p>
+                <p id="roledescription1">The design aims to bridge across generations. While these traditional handicrafts are often associated with older crowds, we also wanted to keep in mind the resurgence among young, hip crafters. We referenced punk/DIY/feminist aesthetics while choosing our fonts and color scheme,  while also ensuring the site was desktop friendly and fully mobile.</p>
+        </div>
+        </div>
+
+        <div class="projectPageImages">
+            <img src="./Assets/StitchNBitch/designgif.gif" width="400px"></img>
+           
+    </div>
+    </div>
+
+    <div class="challengeDiv" data-aos="fade-up">
+        <div>
+            <p class="challengep">Challenges</p>
+            <p class="challengeDescription">I learned a ton while making this project. This was the first collaborative project I had worked on, and it was great to get comfy with Git and GitHub along with ElephantSQL to better share our API. We also uploaded images to our back end using Cloudinary, a skill I'm pleased to now have in my back pocket. </p>
+            <p class="challengep">Future Plans</p>
+            <p class="challengeDescription">This project is a work-in-progress. There is a lot of functionality that we plan to add.  Ultimately we want to lean into the social aspect, increingse the interaction between users and allowing for them to chat with one another and react to each other's projects. We also want to allow the option for a group to be invite only, allowing for a more exclusive experience.</p>
+        </div>
+    </div>
+
+<div class="snippetDiv" >
+    <p class="codeSnippet">   
+        async function handleClick(e) {<br>          
+        e.preventDefault();<br>               
+        const { files } = document.querySelector(".app_uploadInput");<br>
+        const formData = new FormData();<br>
+        formData.append("file", files[0]);<br> 
+        formData.append("upload_preset", upload_preset);<br>
+        const options = {method: "POST",body: formData};<br>   
+        let res = await fetch(`https://api.Cloudinary.com/v1_1/${cloud_name}/image/upload`,options)<br>    
+        res = await res.json()<br>  
+        setImageUrl(res.secure_url);<br>    
+        let res2 = await fetch(`${process.env.REACT_APP_SERVER_URL}/groups/addphoto/${id}`,<br>
+        { method: 'POST',mode: 'cors', headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},<br>
+        body: JSON.stringify({ imagename: res.secure_url })<br> 
+        })<br>    
+        await onNoThanksCLicked();  };</p>
+</div>
+
+
+<!-- Comments section can go here in the future -->
+
+   <!-- Comments section can go here in the future -->
+
+   <footer id="footer">
+    <div class="footerDiv">
+
+    <div class="contactDiv">
+            <section class="contact">
+            <h2>Let's get in touch.</h2>
+            </section>
+
+            <section class="contact-forms">
+            <a  href="https://www.linkedin.com/in/heather-houde-a5335214a/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/hhoude36" class="fa fa-github" target="_blank"></a>
+            <a href="mailto:heather.m.houde@gmail.com"target="_blank" class="fa fa-envelope"></a>
+            </section>
+    </div>
+    
+        
+        <a href="index.html"> 
+            <img class="footerNest" id="footerNest" src="./Assets/Nest.png"></img></a>
+    </div>
+     </footer>
+
+
+     <div class="copyrightDiv">
+     <p class= "copyright">Ⓒ 2022 Heather Houde, Web Developer </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
